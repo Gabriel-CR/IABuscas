@@ -1,5 +1,5 @@
 # IA Utilizando Buscas
-> Projeto feito em parceria com [Tiago Rodrigues](https://github.com/tiagors09)
+> Projeto feito em parceria com <a href="https://github.com/tiagors09" target="_blank">Tiago Rodrigues</a>
 
 Nesse projeto utilizamos vários tipos de busca para encontrar caminhos entre cidades, utilizando o mapa da Romênia como exemplo.
 
