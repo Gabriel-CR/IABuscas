@@ -1,4 +1,4 @@
-package buscacustoprofundidade;
+package buscaemprofundidade;
 
 import java.util.Stack;
 
@@ -7,7 +7,7 @@ import utilitarios.Mapa;
 import utilitarios.No;
 import utilitarios.Transicao;
 
-public class BuscaCustoProfundidade {
+public class BuscaEmProfundidade {
     private Stack<No> borda;
     private Stack<Estado> explorados;
     private No objetivo;
@@ -20,7 +20,7 @@ public class BuscaCustoProfundidade {
         this.objetivo = objetivo;
     }
 
-    public BuscaCustoProfundidade() {
+    public BuscaEmProfundidade() {
         borda = new Stack<No>();
         explorados = new Stack<Estado>();
     }

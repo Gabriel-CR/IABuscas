@@ -1,6 +1,6 @@
 import buscaemlargura.BuscaEmLargura;
+import buscaemprofundidade.BuscaEmProfundidade;
 import buscacustouniforme.BuscaCustoUniforme;
-import buscacustoprofundidade.BuscaCustoProfundidade;
 import buscaheuristica.buscagulosa.BuscaGulosa;
 import buscaheuristica.buscaaestrela.BuscaAEstrela;
 import buscaheuristica.buscagulosa.NoGuloso;
@@ -69,7 +69,7 @@ public class App {
             System.out.println(app.printCaminho(sol));
         } else if (args[0].equals("bcp")) {
             System.out.println("BUSCA EM PROFUNDIDADE");
-            BuscaCustoProfundidade bcp = new BuscaCustoProfundidade();
+            BuscaEmProfundidade bcp = new BuscaEmProfundidade();
             bcp.setObjetivo(new No(estados[chegada], null, 0));
 
             No n = new No(estados[origem], null, 0);
